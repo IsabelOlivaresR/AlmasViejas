@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almas Viejas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="page">
+        <h1 class="title"> Almas Viejas - Carol Rovira </h1>
+        <iframe class="spotify" src="https://open.spotify.com/embed/album/1a6t8OKmLbdSK4nxg3RvAk" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <p class="subtitle">¿Estás en blucle con Almas Viejas? ¿Quieres saber el número de veces que la has escuchado?</p>
+        <p class="subtitle">Introduce el tiempo que llevas escuchándola 👇 </p>
+        <div class="js-result result">
+            <p class="js-message message"></p>
+        </div>
+        <form class="form">
+            <label class="label" for="time">Horas</label>
+            <input class="input js-hours" type="text" name="hours" />
+            <label class="label" for="time">Minutos</label>
+            <input class="input js-minutes" type="text" name="minutes" />
+           <div class="button js-button">Enviar</div> 
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

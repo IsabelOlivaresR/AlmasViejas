@@ -1,0 +1,154 @@
+body {
+  text-decoration: none;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #484545;
+}
+.page {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.subtitle {
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-align: justify;
+  margin: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label {
+  color: white;
+}
+.input {
+  margin-bottom: 10px;
+}
+.spotify {
+  height: 80px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #151515;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.result {
+  background-color: #bdbcbc;
+  color: black;
+  height: 80px;
+  width: 300px;
+  border: 3px solid black;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.display {
+  display: flex;
+}
+.message {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+@media all and (min-width: 768px) {
+  .page {
+    justify-content: center;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    width: 500px;
+    font-size: 25px;
+  }
+  .spotify {
+    height: 80px;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .label {
+    font-size: 20px;
+  }
+  .input {
+    height: 30px;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  .button {
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+  }
+  .result {
+    height: 100px;
+    width: 500px;
+  }
+  .message {
+    font-size: 25px;
+  }
+}
+}
+@media all and (min-width: 768px) {
+  .page {
+    justify-content: center;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .subtitle {
+    width: 500px;
+    font-size: 22px;
+  }
+  .spotify {
+    height: 80px;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .input {
+    height: 30px;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  .button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+  }
+  .result {
+    height: 100px;
+    width: 500px;
+  }
+  .message {
+    font-size: 22px;
+  }
+}
